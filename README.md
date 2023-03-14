@@ -1,4 +1,11 @@
-# Getting Started
+# Kotlin Daily Top 3
+
+Kotlin Spring Boot API for an example code for blog post
+
+- [REST API in Kotlin & Spring Boot](https://blog.justinramel.com/rest-api-in-kotlin-spring-boot)
+
+
+## Getting Started
 
 ### Reference Documentation
 For further reference, please consider the following sections:
