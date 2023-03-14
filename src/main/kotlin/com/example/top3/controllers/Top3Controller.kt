@@ -12,7 +12,7 @@ import java.time.LocalDate
 @RequestMapping("/top3")
 class Top3Controller(private val top3Repository: Top3Repository) {
     @GetMapping
-    fun findAll(): Top3Dto = top3Repository.findByCreatedAt(LocalDate.now()).toDto()
+    fun findAll(): Top3Dto? = top3Repository.findByCreatedAt(LocalDate.now()).toDto()
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
